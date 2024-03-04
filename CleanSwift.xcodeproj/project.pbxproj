@@ -13,6 +13,14 @@
 		27450A832B96630F001F5504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27450A812B96630F001F5504 /* Main.storyboard */; };
 		27450A852B966310001F5504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27450A842B966310001F5504 /* Assets.xcassets */; };
 		27450A882B966310001F5504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27450A862B966310001F5504 /* LaunchScreen.storyboard */; };
+		27450A922B966388001F5504 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A902B966388001F5504 /* NetworkManager.swift */; };
+		27450A932B966388001F5504 /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A912B966388001F5504 /* NetworkUtil.swift */; };
+		27450A972B9663AA001F5504 /* FlightSearchUIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A952B9663AA001F5504 /* FlightSearchUIData.swift */; };
+		27450A982B9663AA001F5504 /* FlightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A962B9663AA001F5504 /* FlightResponse.swift */; };
+		27450A9C2B966F15001F5504 /* ProductApiWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A9B2B966F15001F5504 /* ProductApiWorker.swift */; };
+		27450A9E2B966F5D001F5504 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */; };
+		27450AA02B966F7C001F5504 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */; };
+		27450AA22B96762E001F5504 /* ProductListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450AA12B96762E001F5504 /* ProductListModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		27450A842B966310001F5504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27450A872B966310001F5504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27450A892B966310001F5504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27450A902B966388001F5504 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		27450A912B966388001F5504 /* NetworkUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
+		27450A952B9663AA001F5504 /* FlightSearchUIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSearchUIData.swift; sourceTree = "<group>"; };
+		27450A962B9663AA001F5504 /* FlightResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightResponse.swift; sourceTree = "<group>"; };
+		27450A9B2B966F15001F5504 /* ProductApiWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApiWorker.swift; sourceTree = "<group>"; };
+		27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		27450AA12B96762E001F5504 /* ProductListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,9 @@
 		27450A7A2B96630F001F5504 /* CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				27450A992B96646D001F5504 /* features */,
+				27450A942B9663AA001F5504 /* model */,
+				27450A8F2B966388001F5504 /* network */,
 				27450A7B2B96630F001F5504 /* AppDelegate.swift */,
 				27450A7D2B96630F001F5504 /* SceneDelegate.swift */,
 				27450A7F2B96630F001F5504 /* ViewController.swift */,
@@ -65,6 +84,43 @@
 				27450A892B966310001F5504 /* Info.plist */,
 			);
 			path = CleanSwift;
+			sourceTree = "<group>";
+		};
+		27450A8F2B966388001F5504 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				27450A902B966388001F5504 /* NetworkManager.swift */,
+				27450A912B966388001F5504 /* NetworkUtil.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		27450A942B9663AA001F5504 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				27450A952B9663AA001F5504 /* FlightSearchUIData.swift */,
+				27450A962B9663AA001F5504 /* FlightResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		27450A992B96646D001F5504 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				27450A9A2B966478001F5504 /* ProductList */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		27450A9A2B966478001F5504 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				27450A9B2B966F15001F5504 /* ProductApiWorker.swift */,
+				27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */,
+				27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */,
+				27450AA12B96762E001F5504 /* ProductListModels.swift */,
+			);
+			path = ProductList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27450A932B966388001F5504 /* NetworkUtil.swift in Sources */,
+				27450AA22B96762E001F5504 /* ProductListModels.swift in Sources */,
+				27450A9E2B966F5D001F5504 /* ProductListPresenter.swift in Sources */,
+				27450A982B9663AA001F5504 /* FlightResponse.swift in Sources */,
+				27450A972B9663AA001F5504 /* FlightSearchUIData.swift in Sources */,
+				27450A922B966388001F5504 /* NetworkManager.swift in Sources */,
 				27450A802B96630F001F5504 /* ViewController.swift in Sources */,
 				27450A7C2B96630F001F5504 /* AppDelegate.swift in Sources */,
+				27450A9C2B966F15001F5504 /* ProductApiWorker.swift in Sources */,
+				27450AA02B966F7C001F5504 /* ProductListInteractor.swift in Sources */,
 				27450A7E2B96630F001F5504 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
