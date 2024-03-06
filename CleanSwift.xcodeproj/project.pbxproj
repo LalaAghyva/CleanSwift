@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27328AFE2B97DD0F0084EB97 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328AFC2B97DD0F0084EB97 /* BasketViewController.swift */; };
+		27328AFF2B97DD0F0084EB97 /* BasketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328AFD2B97DD0F0084EB97 /* BasketViewController.xib */; };
+		27328B022B97DD6D0084EB97 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B002B97DD6D0084EB97 /* ProductListViewController.swift */; };
+		27328B032B97DD6D0084EB97 /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328B012B97DD6D0084EB97 /* ProductListViewController.xib */; };
+		27328B062B97DED00084EB97 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B042B97DED00084EB97 /* FavoriteViewController.swift */; };
+		27328B072B97DED00084EB97 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328B052B97DED00084EB97 /* FavoriteViewController.xib */; };
+		27328B0A2B97DF2B0084EB97 /* MyTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B082B97DF2B0084EB97 /* MyTabbarViewController.swift */; };
+		27328B0B2B97DF2B0084EB97 /* MyTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328B092B97DF2B0084EB97 /* MyTabbarViewController.xib */; };
+		27328B0D2B97E1FE0084EB97 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B0C2B97E1FE0084EB97 /* ViewControllerFactory.swift */; };
+		27328B112B97F1320084EB97 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B0F2B97F1320084EB97 /* SplashViewController.swift */; };
+		27328B122B97F1320084EB97 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328B102B97F1320084EB97 /* SplashViewController.xib */; };
+		27328B152B97F7200084EB97 /* FlightCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27328B142B97F7200084EB97 /* FlightCellTableViewCell.swift */; };
+		27328B172B97F7320084EB97 /* FlightCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27328B162B97F7320084EB97 /* FlightCellTableViewCell.xib */; };
+		27328B1A2B97F82A0084EB97 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 27328B192B97F82A0084EB97 /* Kingfisher */; };
 		27450A7C2B96630F001F5504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A7B2B96630F001F5504 /* AppDelegate.swift */; };
 		27450A7E2B96630F001F5504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A7D2B96630F001F5504 /* SceneDelegate.swift */; };
 		27450A802B96630F001F5504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A7F2B96630F001F5504 /* ViewController.swift */; };
@@ -21,9 +35,25 @@
 		27450A9E2B966F5D001F5504 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */; };
 		27450AA02B966F7C001F5504 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */; };
 		27450AA22B96762E001F5504 /* ProductListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27450AA12B96762E001F5504 /* ProductListModels.swift */; };
+		27F5AF292B984714000996C7 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5AF282B984714000996C7 /* ProductListRouter.swift */; };
+		27F5AF2D2B98484E000996C7 /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5AF2B2B98484E000996C7 /* ProductDetailController.swift */; };
+		27F5AF2E2B98484E000996C7 /* ProductDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F5AF2C2B98484E000996C7 /* ProductDetailController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27328AFC2B97DD0F0084EB97 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		27328AFD2B97DD0F0084EB97 /* BasketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketViewController.xib; sourceTree = "<group>"; };
+		27328B002B97DD6D0084EB97 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		27328B012B97DD6D0084EB97 /* ProductListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
+		27328B042B97DED00084EB97 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		27328B052B97DED00084EB97 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		27328B082B97DF2B0084EB97 /* MyTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarViewController.swift; sourceTree = "<group>"; };
+		27328B092B97DF2B0084EB97 /* MyTabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTabbarViewController.xib; sourceTree = "<group>"; };
+		27328B0C2B97E1FE0084EB97 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		27328B0F2B97F1320084EB97 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		27328B102B97F1320084EB97 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		27328B142B97F7200084EB97 /* FlightCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCellTableViewCell.swift; sourceTree = "<group>"; };
+		27328B162B97F7320084EB97 /* FlightCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightCellTableViewCell.xib; sourceTree = "<group>"; };
 		27450A782B96630F001F5504 /* CleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27450A7B2B96630F001F5504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27450A7D2B96630F001F5504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +70,9 @@
 		27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
 		27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
 		27450AA12B96762E001F5504 /* ProductListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModels.swift; sourceTree = "<group>"; };
+		27F5AF282B984714000996C7 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		27F5AF2B2B98484E000996C7 /* ProductDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		27F5AF2C2B98484E000996C7 /* ProductDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +80,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27328B1A2B97F82A0084EB97 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27328AEF2B97D7360084EB97 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				27328B042B97DED00084EB97 /* FavoriteViewController.swift */,
+				27328B052B97DED00084EB97 /* FavoriteViewController.xib */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		27328AF02B97D7470084EB97 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				27328AFC2B97DD0F0084EB97 /* BasketViewController.swift */,
+				27328AFD2B97DD0F0084EB97 /* BasketViewController.xib */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		27328AF12B97D75B0084EB97 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				27F5AF2B2B98484E000996C7 /* ProductDetailController.swift */,
+				27F5AF2C2B98484E000996C7 /* ProductDetailController.xib */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		27328AF22B97DB8C0084EB97 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				27328AF32B97DB930084EB97 /* MyTabbar */,
+				27328B0C2B97E1FE0084EB97 /* ViewControllerFactory.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		27328AF32B97DB930084EB97 /* MyTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				27328B082B97DF2B0084EB97 /* MyTabbarViewController.swift */,
+				27328B092B97DF2B0084EB97 /* MyTabbarViewController.xib */,
+			);
+			path = MyTabbar;
+			sourceTree = "<group>";
+		};
+		27328B0E2B97F0FE0084EB97 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				27328B0F2B97F1320084EB97 /* SplashViewController.swift */,
+				27328B102B97F1320084EB97 /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		27328B132B97F7030084EB97 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				27328B162B97F7320084EB97 /* FlightCellTableViewCell.xib */,
+				27328B142B97F7200084EB97 /* FlightCellTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		27450A6F2B96630F001F5504 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +169,7 @@
 		27450A7A2B96630F001F5504 /* CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				27328AF22B97DB8C0084EB97 /* UI */,
 				27450A992B96646D001F5504 /* features */,
 				27450A942B9663AA001F5504 /* model */,
 				27450A8F2B966388001F5504 /* network */,
@@ -107,6 +205,10 @@
 		27450A992B96646D001F5504 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				27328B0E2B97F0FE0084EB97 /* Splash */,
+				27328AF12B97D75B0084EB97 /* ProductDetail */,
+				27328AF02B97D7470084EB97 /* Basket */,
+				27328AEF2B97D7360084EB97 /* Favorite */,
 				27450A9A2B966478001F5504 /* ProductList */,
 			);
 			path = features;
@@ -115,10 +217,14 @@
 		27450A9A2B966478001F5504 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
+				27328B132B97F7030084EB97 /* cells */,
 				27450A9B2B966F15001F5504 /* ProductApiWorker.swift */,
 				27450A9D2B966F5D001F5504 /* ProductListPresenter.swift */,
 				27450A9F2B966F7C001F5504 /* ProductListInteractor.swift */,
 				27450AA12B96762E001F5504 /* ProductListModels.swift */,
+				27328B002B97DD6D0084EB97 /* ProductListViewController.swift */,
+				27328B012B97DD6D0084EB97 /* ProductListViewController.xib */,
+				27F5AF282B984714000996C7 /* ProductListRouter.swift */,
 			);
 			path = ProductList;
 			sourceTree = "<group>";
@@ -139,6 +245,9 @@
 			dependencies = (
 			);
 			name = CleanSwift;
+			packageProductDependencies = (
+				27328B192B97F82A0084EB97 /* Kingfisher */,
+			);
 			productName = CleanSwift;
 			productReference = 27450A782B96630F001F5504 /* CleanSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 27450A6F2B96630F001F5504;
+			packageReferences = (
+				27328B182B97F82A0084EB97 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 27450A792B96630F001F5504 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -181,8 +293,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27328B0B2B97DF2B0084EB97 /* MyTabbarViewController.xib in Resources */,
 				27450A882B966310001F5504 /* LaunchScreen.storyboard in Resources */,
 				27450A852B966310001F5504 /* Assets.xcassets in Resources */,
+				27328B122B97F1320084EB97 /* SplashViewController.xib in Resources */,
+				27328B072B97DED00084EB97 /* FavoriteViewController.xib in Resources */,
+				27328B032B97DD6D0084EB97 /* ProductListViewController.xib in Resources */,
+				27F5AF2E2B98484E000996C7 /* ProductDetailController.xib in Resources */,
+				27328AFF2B97DD0F0084EB97 /* BasketViewController.xib in Resources */,
+				27328B172B97F7320084EB97 /* FlightCellTableViewCell.xib in Resources */,
 				27450A832B96630F001F5504 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,13 +315,22 @@
 			files = (
 				27450A932B966388001F5504 /* NetworkUtil.swift in Sources */,
 				27450AA22B96762E001F5504 /* ProductListModels.swift in Sources */,
+				27328AFE2B97DD0F0084EB97 /* BasketViewController.swift in Sources */,
+				27328B112B97F1320084EB97 /* SplashViewController.swift in Sources */,
 				27450A9E2B966F5D001F5504 /* ProductListPresenter.swift in Sources */,
+				27328B152B97F7200084EB97 /* FlightCellTableViewCell.swift in Sources */,
+				27328B062B97DED00084EB97 /* FavoriteViewController.swift in Sources */,
 				27450A982B9663AA001F5504 /* FlightResponse.swift in Sources */,
+				27F5AF2D2B98484E000996C7 /* ProductDetailController.swift in Sources */,
 				27450A972B9663AA001F5504 /* FlightSearchUIData.swift in Sources */,
+				27F5AF292B984714000996C7 /* ProductListRouter.swift in Sources */,
 				27450A922B966388001F5504 /* NetworkManager.swift in Sources */,
+				27328B022B97DD6D0084EB97 /* ProductListViewController.swift in Sources */,
 				27450A802B96630F001F5504 /* ViewController.swift in Sources */,
+				27328B0A2B97DF2B0084EB97 /* MyTabbarViewController.swift in Sources */,
 				27450A7C2B96630F001F5504 /* AppDelegate.swift in Sources */,
 				27450A9C2B966F15001F5504 /* ProductApiWorker.swift in Sources */,
+				27328B0D2B97E1FE0084EB97 /* ViewControllerFactory.swift in Sources */,
 				27450AA02B966F7C001F5504 /* ProductListInteractor.swift in Sources */,
 				27450A7E2B96630F001F5504 /* SceneDelegate.swift in Sources */,
 			);
@@ -427,6 +555,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27328B182B97F82A0084EB97 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27328B192B97F82A0084EB97 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27328B182B97F82A0084EB97 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27450A702B96630F001F5504 /* Project object */;
 }
